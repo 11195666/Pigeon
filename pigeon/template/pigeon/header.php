@@ -32,7 +32,7 @@ body {
 	font-weight:400;
 	background-color:#333;
 	color:#000;
-	background-image: url(http://blog.tengzhou.ren/blog/typecho/background.jpeg);
+	background-image: url(http://blog.tengzhou.ren/blog/typecho/background.jpeg);/*新增背景图*/
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -51,7 +51,7 @@ body:before {
 	width: 100%;
 	height: 100%;
 	z-index: -10;
-	background-image: url(http://blog.tengzhou.ren/blog/typecho/background.jpeg);
+	background-image: url(http://blog.tengzhou.ren/blog/typecho/background.jpeg);/*新增背景图*/
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -62,7 +62,7 @@ body:before {
 }
 @media (max-width: 800px) {
 	body, body:before {
-		background-image: url(http://blog.tengzhou.ren/blog/typecho/background.jpeg);
+		background-image: url(http://blog.tengzhou.ren/blog/typecho/background.jpeg);/*新增背景图*/
 	}
 }
 
@@ -107,7 +107,6 @@ body:before {
 	background-color: #4A4A4A;
 }
 
-
 .loginhead {
 	border-radius: 50%;
 	width: 70%;
@@ -117,7 +116,7 @@ body:before {
 /*说说框*/
 .message {
 	padding: 12px;
-	background-color:#c6d1d1;
+	background-color:#c6d1d1;/*更改说说输入框配色*/
 	border-radius: 8px;
 	margin-bottom: 26px;
 	padding-bottom: 2px;
@@ -232,14 +231,14 @@ ol,ul {
 	margin-bottom: 0px;
 }
 a {
-    color:#1E90FF;
+    color:#1E90FF;/*超链接改为蓝色*/
 /*  color: var(--btnColor);*/
 }
 a.footer,a.link {
     color: var(--btnColorHover);
 }
 a:focus, a:hover {
-    color:#FF1493;
+    color:#FF1493;/*悬停超链接改为粉红色*/
 /*  color: var(--btnColorHover);*/
 }
 a.unset-color {
